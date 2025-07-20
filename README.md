@@ -369,9 +369,8 @@ Claude Code 的設定檔結構如下，您可以將 Hooks 設定放在其中：
 *   **本地專案設定** (`<project_root>/.claude/settings.local.json`): 本地設定，不會被版本控制。
 *   **企業管理政策設定**: 如果您在企業環境中，管理員可能已配置全域策略設定。
 
-<Warning>
+
 ⚠️ **重要提醒**: `"matcher": "*"` 是無效的語法。如果要匹配所有工具，請省略 `matcher` 欄位或使用 `"matcher": ""`。
-</Warning>
 
 ## 實用範例庫
 
