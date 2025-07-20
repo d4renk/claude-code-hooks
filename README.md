@@ -276,9 +276,8 @@ Hook 可以透過兩種方式影響 Claude Code 的行為：**簡單的退出碼
 | `Stop` / `SubagentStop` | 阻擋 Claude 停止，並將 `stderr` 內容交給 Claude 以決定下一步。 |
 | `Notification` / `PreCompact` | 無特殊阻擋效果，僅將 `stderr` 顯示給使用者。 |
 
-<Warning>
+
 ⚠️ **重要提醒**: 當退出代碼為 0 時，Claude **不會看到** `stdout` 的內容。只有 `stderr` 在退出代碼為 2 時才會被 Claude 處理。
-</Warning>
 
 #### 2. 進階控制：JSON 輸出
 
